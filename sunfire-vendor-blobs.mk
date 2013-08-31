@@ -1,4 +1,3 @@
-
 PRODUCT_COPY_FILES += \
     vendor/motorola/sunfire/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/motorola/sunfire/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
@@ -99,7 +98,7 @@ vendor/motorola/sunfire/proprietary/lib/libfmradioplayer.so:system/lib/libfmradi
 vendor/motorola/sunfire/proprietary/lib/libnvidia_display_jni.so:system/lib/libnvidia_display_jni.so \
 vendor/motorola/sunfire/proprietary/lib/libnvec.so:system/lib/libnvec.so \
 vendor/motorola/sunfire/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
-    vendor/moto/olympus/proprietary/bin/nvrm_daemon:system/bin/nvrm_daemon \
+vendor/motorola/sunfire/proprietary/bin/nvrm_daemon:system/bin/nvrm_daemon \
 vendor/motorola/sunfire/proprietary/lib/libpixelflinger.so:system/lib/libpixelflinger.so
 
 #-----------------------------------------------------------------------------------------------------
