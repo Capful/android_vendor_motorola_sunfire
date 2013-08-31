@@ -99,7 +99,7 @@ vendor/motorola/sunfire/proprietary/lib/libfmradioplayer.so:system/lib/libfmradi
 vendor/motorola/sunfire/proprietary/lib/libnvidia_display_jni.so:system/lib/libnvidia_display_jni.so \
 vendor/motorola/sunfire/proprietary/lib/libnvec.so:system/lib/libnvec.so \
 vendor/motorola/sunfire/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
-vendor/motorola/sunfire/proprietary/bin/nvrm_daemon:system/bin/nvrm_daemon \
+    vendor/moto/olympus/proprietary/bin/nvrm_daemon:system/bin/nvrm_daemon \
 vendor/motorola/sunfire/proprietary/lib/libpixelflinger.so:system/lib/libpixelflinger.so
 
 #-----------------------------------------------------------------------------------------------------
@@ -123,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sunfire/proprietary/usr/idc/qtouch-touchscreen.idc:system/usr/idc/qtouch-touchscreen.idc \
     vendor/motorola/sunfire/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
     vendor/motorola/sunfire/proprietary/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
+    vendor/motorola/sunfire/proprietary/app/RootExplorer.apk:system/app/RootExplorer.apk \
     vendor/motorola/sunfire/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options
 
 # system libs
@@ -173,16 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sunfire/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
     vendor/motorola/sunfire/proprietary/lib/libbattd.so:system/lib/libbattd.so \
     vendor/motorola/sunfire/proprietary/lib/libnvrm_channel.so:system/lib/libnvrm_channel.so
-
-# wifi_modul
-PRODUCT_COPY_FILES += \
-    vendor/motorola/sunfire/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/motorola/sunfire/proprietary/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
-    vendor/motorola/sunfire/proprietary/lib/modules/rmnet0_drv.ko:system/lib/modules/rmnet0_drv.ko \
-    vendor/motorola/sunfire/proprietary/lib/modules/rmnet1_drv.ko:system/lib/modules/rmnet1_drv.ko \
-    vendor/motorola/sunfire/proprietary/lib/modules/rmnet2_drv.ko:system/lib/modules/rmnet2_drv.ko \
-    vendor/motorola/sunfire/proprietary/lib/modules/rmnet3_drv.ko:system/lib/modules/rmnet3_drv.ko \
-    vendor/motorola/sunfire/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
 
 # HDMI
 PRODUCT_COPY_FILES += \
